@@ -1,0 +1,21 @@
+
+#container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+    aside {
+        background: #ccc;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+
+        header {
+            height: 50px;
+            background-color: aqua;
+        }
+    }
+}

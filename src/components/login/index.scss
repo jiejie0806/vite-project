@@ -1,0 +1,14 @@
+.login-container {
+    color: #000;
+    width: 100vw;
+    height: 100vh;
+    background: #fdd891;
+    display: flex;
+
+    .form {
+        position:absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
